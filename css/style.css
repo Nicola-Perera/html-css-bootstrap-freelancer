@@ -8,7 +8,8 @@
 
 /* common rules */
 img {
-    height: 500px;
+    width: 100%;
+    border-radius: 2rem;
 }
 
 /* utilities */
@@ -19,6 +20,9 @@ img {
 /* text color */
 .twhite {
     color: white;
+}
+.tblue {
+    color: #2C3E50;
 }
 
 /*****************
@@ -36,4 +40,7 @@ i {
  /*****************
   main 
   *****************/
+  #avatar {
+      height: 500px;
+  }
   
