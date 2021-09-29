@@ -1,0 +1,21 @@
+/* block color */
+header {
+    background-color: #2C3E50;
+}
+
+/* utilities */
+
+/* text color */
+.twhite {
+    color: white;
+}
+
+/* header */
+i {
+    color: white;
+    border: 1px solid white;
+    border-radius: .3rem;
+}
+ header .row {
+     justify-content: space-between;
+ }
