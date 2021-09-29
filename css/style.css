@@ -1,16 +1,29 @@
 /* block color */
-header {
+.bg_blue {
     background-color: #2C3E50;
+}
+.bg_green {
+    background-color: #1ABC9C;
+}
+
+/* common rules */
+img {
+    height: 500px;
 }
 
 /* utilities */
+.center {
+    text-align: center;
+}
 
 /* text color */
 .twhite {
     color: white;
 }
 
-/* header */
+/*****************
+ header 
+ *****************/
 i {
     color: white;
     border: 1px solid white;
@@ -19,3 +32,8 @@ i {
  header .row {
      justify-content: space-between;
  }
+
+ /*****************
+  main 
+  *****************/
+  
