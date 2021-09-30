@@ -28,7 +28,7 @@ img {
 /*****************
  header 
  *****************/
-i {
+.hamburger {
     color: white;
     border: 1px solid white;
     border-radius: .3rem;
