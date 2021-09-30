@@ -6,6 +6,17 @@
     background-color: #1ABC9C;
 }
 
+/* text color */
+.twhite {
+    color: white;
+}
+.tblue {
+    color: #2C3E50;
+}
+.tgreen {
+    color: #1ABC9C;
+}
+
 /* common rules */
 img {
     width: 100%;
@@ -35,12 +46,17 @@ img {
 .btn {
     border-radius: 1rem;
 }
-/* text color */
-.twhite {
-    color: white;
+
+.social {
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 5rem;
+    height: 4rem;
+    padding: 0 1rem;
 }
-.tblue {
-    color: #2C3E50;
+
+.middle {
+    margin: 0 1rem;
 }
 
 /*****************
@@ -60,5 +76,10 @@ img {
   *****************/
   #avatar {
       height: 500px;
+  }
+
+  .socials {
+      display: flex;
+      justify-content: space-between;
   }
   
